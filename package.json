@@ -13,5 +13,8 @@
   "devDependencies": {
     "netlify-lambda": "^1.6.3",
     "netlify-cli": "^2.40.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
   }
 }
