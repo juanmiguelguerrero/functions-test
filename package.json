@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "npx netlify-lambda install",
-	"build": "echo '======================= Arrancando'",
+	"build": "echo '======================= Arrancando' && netlify --version",
     "dev": "npx netlify dev"
   },
   "keywords": [],
