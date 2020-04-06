@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postinstall": "npx netlify-lambda install src/functions",
-    "build": "npx netlify functions:build --src=src/functions",
-    "dev": "npx netlify dev --functions=src/functions"
+    "postinstall": "npx netlify-lambda install",
+    "dev": "npx netlify dev"
   },
   "keywords": [],
   "author": "",
