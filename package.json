@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "preinstall": "if [ ! $NETLIFY ]; then echo '======================= Postinstall'; npx netlify-lambda install; fi",
-    "po": "echo '======================= Postinstall' && npx netlify-lambda install",
-    "build": "echo '======================= Arrancando'",
+    "postinstall": "npx netlify-lambda install",
+	"build": "echo '======================= Arrancando'",
     "dev": "npx netlify dev"
   },
   "keywords": [],
