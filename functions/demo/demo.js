@@ -20,6 +20,6 @@ exports.handler = async (event, context) => {
 		// body: "..."
 
 		statusCode: 200,
-		body: 'ver5---' + uniqueString()
+		body: 'ver6---' + uniqueString()
 	}
 }
