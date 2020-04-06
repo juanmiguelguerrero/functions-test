@@ -1,0 +1,13 @@
+
+[build]
+  publish = "dist"
+  functions = "functions"
+  command = "npm run build"
+
+[[redirects]]
+  from = "/test"
+  to = "/.netlify/functions/test"
+
+[[redirects]]
+  from = "/demo"
+  to = "/.netlify/functions/demo"
