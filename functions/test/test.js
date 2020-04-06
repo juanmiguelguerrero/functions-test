@@ -17,6 +17,6 @@ exports.handler = async (event, context) => {
 		// body: "..."
 
 		statusCode: 200,
-		body: '1----------Hello from TEST lambda function !!!'
+		body: '----------Hello from TEST lambda function !!!'
 	}
 }
